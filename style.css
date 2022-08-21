@@ -111,6 +111,7 @@ body {
     margin-top: 0px;
 }
 
+
 /* .Shipping address {
     position: absolute;
     width: 311px;
@@ -151,8 +152,8 @@ body {
     text-align: right;
 }
 
-.Schedule tr:first-child {
-    border-bottom: 1px solid #777;
+.Schedule thead tr:first-child {
+    border-bottom: .5px solid #777;
 }
 
 .orders-table {
@@ -180,8 +181,39 @@ body {
     width: 60%;
     display: inline-block;
 }
-.show-orders{
+
+.show-orders {
     text-align: end;
     margin-left: 150px;
 }
- 
+
+@media screen and (max-width: 414px) {
+    .content {
+        width: 100%;
+    }
+    .info {
+        grid-template-columns: repeat(2, 49%);
+        grid-template-rows: repeat(2, 49%);
+        grid-row-gap: 2%;
+    }
+    .Schedule thead th {
+        visibility: hidden;
+    }
+    .Schedule tbody td,
+    .Schedule tbody td span {
+        display: none;
+    }
+    .Schedule tbody td:last-child {
+        display: block;
+    }
+    .show-orders {
+        text-align: start;
+    }
+    .informations {
+        flex-direction: column;
+    }
+    .informations .block {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
