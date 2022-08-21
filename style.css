@@ -1,0 +1,130 @@
+* {
+    direction: rtl;
+    font-family: 'Helvetica Neue LT Arabic';
+
+
+}
+
+.section .info {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.info .bonus-points {
+    width: 294px;
+    height: 107px;
+    top: 295px;
+    left: 792;
+    display: flex;
+    padding: 10px;
+    background: linear-gradient(237.79deg, #FBE488 30.68%, #F1BD05 87.31%);
+    border-radius: 7.9077px;
+}
+
+/*.bonus-points::after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f095";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}*/
+
+.info .completed-orders {
+    width: 294px;
+    height: 107px;
+    top: 295px;
+    left: 511px;
+    display: flex;
+    padding: 10px;
+    background: linear-gradient(83.27deg, #27AE60 0.69%, #8ADC6D 83.74%);
+    border-radius: 7.9077px;
+}
+
+.info .favorite {
+    width: 294px;
+    height: 107px;
+    top: 295px;
+    left: 230px;
+    display: flex;
+    padding: 10px;
+    background: linear-gradient(82.97deg, #E74C3C 2.81%, #F0A664 94.52%);
+    border-radius: 7.9077px;
+}
+
+.info .edit-account {
+    width: 118px;
+    height: 109px;
+    top: 295px;
+    left: 80px;
+
+
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(222.05deg, #2C3E50 17.12%, rgba(52, 73, 94, 0.82) 95.58%);
+    color: #fff;
+    border-radius: 7.9077px;
+}
+
+.info .more {
+    margin: 10px 0 10px;
+}
+
+.fa-regular,
+.far,
+.fa-solid {
+    font-size: 60px;
+    font-weight: 400;
+    ;
+}
+.more{
+    padding: 0px;
+    margin: 10px;
+}
+.fa-solid fa-bag-shopping{
+    color: #FFFFFF;
+}
+.informations{
+    padding: 10px;
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+.Shipping address{
+    position: absolute;
+    width: 311px;
+    height: 277px;
+    left: 730px;
+    top: 429px;
+    
+    background: #FFFFFF;
+    border-radius: 7.91px;
+}
+.Account details{
+    position: absolute;
+width: 305px;
+height: 277px;
+left: 405px;
+top: 429px;
+
+background: #FFFFFF;
+border-radius: 7.91px;
+}
+.Edit subscription{
+    position: absolute;
+width: 305px;
+height: 277px;
+left: 405px;
+top: 429px;
+
+background: #FFFFFF;
+border-radius: 7.91px;
+}
+.Schedule{
+    border: 1px solid red;
+}
