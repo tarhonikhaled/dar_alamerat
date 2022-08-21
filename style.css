@@ -1,12 +1,27 @@
 * {
     direction: rtl;
     font-family: 'Helvetica Neue LT Arabic';
+}
 
+body {
+    background-color: #FAF8F8;
+}
 
+.content {
+    width: 70%;
+}
+
+.button {
+    background-color: #fff;
+    border: 1px solid #C4C4C4;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
 }
 
 .section .info {
-    width: 60%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 20px;
@@ -23,6 +38,7 @@
     background: linear-gradient(237.79deg, #FBE488 30.68%, #F1BD05 87.31%);
     border-radius: 7.9077px;
 }
+
 
 /*.bonus-points::after {
     font-family: "Font Awesome 5 Free";
@@ -60,8 +76,6 @@
     height: 109px;
     top: 295px;
     left: 80px;
-
-
     padding: 10px;
     text-align: center;
     background: linear-gradient(222.05deg, #2C3E50 17.12%, rgba(52, 73, 94, 0.82) 95.58%);
@@ -80,51 +94,90 @@
     font-weight: 400;
     ;
 }
-.more{
+
+.more {
     padding: 0px;
     margin: 10px;
 }
-.fa-solid fa-bag-shopping{
+
+.fa-solid fa-bag-shopping {
     color: #FFFFFF;
 }
-.informations{
-    padding: 10px;
-    width: 60%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+
+.informations {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }
-.Shipping address{
+
+.informations .block {
+    background-color: #fff;
+    width: 30%;
+    border-radius: 7.91px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.informations .Edit-subscription {
+    border: 1px dashed #000000;
+    text-align: center;
+}
+
+.informations .title {
+    margin-top: 0px;
+}
+
+.Shipping address {
     position: absolute;
     width: 311px;
     height: 277px;
     left: 730px;
     top: 429px;
-    
     background: #FFFFFF;
     border-radius: 7.91px;
 }
-.Account details{
-    position: absolute;
-width: 305px;
-height: 277px;
-left: 405px;
-top: 429px;
 
-background: #FFFFFF;
-border-radius: 7.91px;
-}
-.Edit subscription{
+.Account details {
     position: absolute;
-width: 305px;
-height: 277px;
-left: 405px;
-top: 429px;
-
-background: #FFFFFF;
-border-radius: 7.91px;
+    width: 305px;
+    height: 277px;
+    left: 405px;
+    top: 429px;
+    background: #FFFFFF;
+    border-radius: 7.91px;
 }
-.Schedule{
-    border: 1px solid red;
+
+.Edit subscription {
+    position: absolute;
+    width: 305px;
+    height: 277px;
+    left: 405px;
+    top: 429px;
+    background: #FFFFFF;
+    border-radius: 7.91px;
+}
+
+.Schedule {
+    width: 100%;
+    border-radius: 7.91px;
+}
+
+.Schedule th {
+    text-align: right;
+}
+
+.Schedule tr:first-child {
+    border-bottom: 1px solid #FAF8F8;
+}
+
+.orders-table {
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 7.91px;
+    padding: 5px;
+}
+
+.Schedule th,
+.Schedule td {
+    padding: 10px;
 }
