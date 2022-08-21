@@ -21,19 +21,14 @@ body {
     cursor: pointer;
 }
 
-.section .info {
+.info {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-template-columns: repeat(3, 27%) 16%;
+    grid-column-gap: 1%;
 }
 
 .info .bonus-points {
-    width: 294px;
     height: 107px;
-    top: 295px;
-    left: 792;
-    display: flex;
     padding: 10px;
     background: linear-gradient(237.79deg, #FBE488 30.68%, #F1BD05 87.31%);
     border-radius: 7.9077px;
@@ -50,32 +45,21 @@ body {
 }*/
 
 .info .completed-orders {
-    width: 294px;
     height: 107px;
-    top: 295px;
-    left: 511px;
-    display: flex;
     padding: 10px;
     background: linear-gradient(83.27deg, #27AE60 0.69%, #8ADC6D 83.74%);
     border-radius: 7.9077px;
 }
 
 .info .favorite {
-    width: 294px;
     height: 107px;
-    top: 295px;
-    left: 230px;
-    display: flex;
     padding: 10px;
     background: linear-gradient(82.97deg, #E74C3C 2.81%, #F0A664 94.52%);
     border-radius: 7.9077px;
 }
 
 .info .edit-account {
-    width: 118px;
     height: 109px;
-    top: 295px;
-    left: 80px;
     padding: 10px;
     text-align: center;
     background: linear-gradient(222.05deg, #2C3E50 17.12%, rgba(52, 73, 94, 0.82) 95.58%);
@@ -127,7 +111,7 @@ body {
     margin-top: 0px;
 }
 
-.Shipping address {
+/* .Shipping address {
     position: absolute;
     width: 311px;
     height: 277px;
@@ -155,11 +139,12 @@ body {
     top: 429px;
     background: #FFFFFF;
     border-radius: 7.91px;
-}
+} */
 
 .Schedule {
     width: 100%;
     border-radius: 7.91px;
+    border-collapse: collapse;
 }
 
 .Schedule th {
@@ -167,7 +152,7 @@ body {
 }
 
 .Schedule tr:first-child {
-    border-bottom: 1px solid #FAF8F8;
+    border-bottom: 1px solid #777;
 }
 
 .orders-table {
@@ -181,3 +166,22 @@ body {
 .Schedule td {
     padding: 10px;
 }
+
+.edit-account i {
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.info i {
+    color: #ffffff;
+}
+
+.info .block .details {
+    width: 60%;
+    display: inline-block;
+}
+.show-orders{
+    text-align: end;
+    margin-left: 150px;
+}
+ 
