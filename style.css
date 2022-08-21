@@ -111,37 +111,6 @@ body {
     margin-top: 0px;
 }
 
-
-/* .Shipping address {
-    position: absolute;
-    width: 311px;
-    height: 277px;
-    left: 730px;
-    top: 429px;
-    background: #FFFFFF;
-    border-radius: 7.91px;
-}
-
-.Account details {
-    position: absolute;
-    width: 305px;
-    height: 277px;
-    left: 405px;
-    top: 429px;
-    background: #FFFFFF;
-    border-radius: 7.91px;
-}
-
-.Edit subscription {
-    position: absolute;
-    width: 305px;
-    height: 277px;
-    left: 405px;
-    top: 429px;
-    background: #FFFFFF;
-    border-radius: 7.91px;
-} */
-
 .Schedule {
     width: 100%;
     border-radius: 7.91px;
@@ -192,7 +161,7 @@ body {
         width: max-content;
     }
     .info {
-        grid-template-columns: repeat(2, 49%);
+        grid-template-columns: 60% 38%;
         grid-template-rows: repeat(2, 49%);
         grid-row-gap: 2%;
     }
